@@ -1,0 +1,124 @@
+/* estilos css para compilador.html */
+
+/* general */
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: black;
+	color: white;
+	font-family: "book antiqua", verdana, tahoma, arial, "sans serif";
+}
+
+/* presentacion */
+.caracteristicas {
+	margin-left: 30px;
+}
+.caracteristicas li {
+	line-height: 19pt;
+}
+.ej {
+	background-color: #fdfdfd;
+	border-radius: 4px;
+	color: #0f0f0f;
+	padding: .6px 8px;
+}
+
+/* formulario */
+#f {
+	background-color: #1a1a1a;
+}
+input[type="button"] {
+	color: white;
+	background-color: silver;
+	display: inline-block;
+	font-size: 14pt;
+	font-weight: bold;
+	padding: 5px 10px;
+	text-decoration: none;
+}
+input[type="button"]:hover {
+	background-color: #929292;
+}
+#f #n-lineas {
+	float: left;
+	font-family: "courier new", "sans serif", arial;
+	font-size: 14pt;
+	height: 500px;
+	min-height: 270px;
+	max-height: 350px;
+	min-width: 70px;
+	max-width: 70px;
+	text-align: right;
+}
+#f #editor {
+	float: left;
+	font-family: "courier new", "sans serif", arial;
+	font-size: 14pt;
+	height: 500px;
+	min-height: 270px;
+	max-height: 350px;
+	min-width: 600px;
+	max-width: 600px;
+	padding-left: 2px;
+}
+#f h3 {
+	font-weight: normal;
+}
+.editor {
+	float: left;
+}
+section {
+	padding: 5px;
+	margin: 10px 0;
+}
+.banner h3 {
+	float: left;
+	margin-right: 90px;
+}
+.banner input {
+	margin: 0 10px;
+	border: 0;
+	border-radius: 3px;
+}
+.traduccion {
+	float: left;
+	font-size: 14pt;
+	width: 500px;
+}
+#caja-traduccion {
+	float: left;
+	position: relative;
+	top: 24.5px;
+	width: 70%;
+}
+#traduccion {
+	clear: both;
+	width: inherit;
+}
+#traduccion:not(:empty) {
+	border-right: 1px solid white;
+}
+#caja-resultados {
+	float: right;
+	position: relative;
+	top: 24.5px;
+	width: 25%;
+}
+#resultados {
+	clear: both;
+	width: inherit;
+}
+.info-err {
+	clear: both;
+}
+section h3:first-child {
+	text-align: center;
+}
+#info-err {
+	color: red;
+}
+#demo {
+	font-size: 26pt;
+}
